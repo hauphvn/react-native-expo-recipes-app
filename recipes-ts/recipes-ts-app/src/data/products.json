@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Cà Phê Caramel Muối",
+    "category": "CAFE VIỆT - VIET COFFEE",
+    "price": "42.000",
+    "tag": [
+      "Sản phẩm mới"
+    ],
+    "imgPath": "https://kaykafe.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fice-blend.fc23552b.gif&w=1080&q=75"
+  },
+  {
+    "id": 2,
+    "name": "Cafe Đen",
+    "category": "CAFE VIỆT - VIET COFFEE",
+    "price": "18.000",
+    "tag": [
+      "Sản phẩm mới"
+    ],
+    "imgPath": "https://kaykafe.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcoffe-viet.7daf3d21.gif&w=1080&q=75"
+  },
+  {
+    "id": 3,
+    "name": "Espresso",
+    "category": "CAFE Ý - ITALY COFFEE",
+    "price": "24.000",
+    "tag": [
+      "Xu hướng"
+    ],
+    "imgPath": "https://kaykafe.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffruit-juice.131a8d86.gif&w=1080&q=75"
+  },
+  {
+    "id": 4,
+    "name": "Oolong Special Sen Vàng Oolong Special Sen Vàng Oolong Special Sen Vàng",
+    "category": "MACCHIATO",
+    "price": "39.000",
+    "tag": [
+      "Xu hướng"
+    ],
+    "imgPath": "https://kaykafe.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCF-ITALY.f28c9d90.gif&w=1080&q=75"
+  },
+  {
+    "id": 5,
+    "name": "Trà Sữa Kay ",
+    "category": "TRÀ SỮA - MILK TEA",
+    "price": "38.000",
+    "tag": [
+      "Xu hướng",
+      "Bán chạy nhất"
+    ],
+    "imgPath": "https://kaykafe.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmilk-tea1-web.484be554.gif&w=1080&q=75"
+  },
+  {
+    "id": 6,
+    "name": "Trà Hoa Hồng Long Nhãn",
+    "category": "TRÀ TRÁI CÂY - FRUIT TEA",
+    "price": "39.000",
+    "tag": [
+      "Xu hướng"
+    ],
+    "imgPath": "https://kaykafe.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmilk-tea1-web.484be554.gif&w=1080&q=75"
+  },
+  {
+    "id": 7,
+    "name": "Chanh Dây Mật Ong",
+    "category": "FRUIT JUICE- NƯỚC ÉP CHẬM",
+    "price": "38.000",
+    "tag": [
+      "Sản phẩm mới"
+    ],
+    "imgPath": "https://kaykafe.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkiwi-muoi-tat-mocktail-nhiet-doi.3cd66b89.jpg&w=2048&q=75"
+  }
+]

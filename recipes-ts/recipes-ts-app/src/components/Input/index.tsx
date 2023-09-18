@@ -25,7 +25,7 @@ const Input = (props: IInputProps) => {
                 {showIconSearch && (
                     <Image style={styles.searchIcon} source={require('../../../assets/search.png')}/>
                 )}
-                <TextInput editable={!pressAble} placeholderTextColor={colors.lightGrey} placeholder={placeholder}/>
+                <TextInput editable={!pressAble} placeholderTextColor={colors.lightGrey4} placeholder={placeholder}/>
             </View>
         );
     };

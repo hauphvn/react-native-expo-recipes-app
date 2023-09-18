@@ -4,7 +4,7 @@ import colors from '../../constants/colors';
 export default StyleSheet.create({
     inputRoot: {
         // flex: 1,
-        borderColor: colors.lightGrey,
+        borderColor: colors.lightGrey4,
         borderWidth: 1,
         height: 38,
         alignItems: 'center',

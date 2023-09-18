@@ -1,18 +1,18 @@
-import { Dimensions, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 import colors from '../../constants/colors';
 
-const { width } = Dimensions.get('window');
 export default StyleSheet.create({
-    recipeCardRoot: {
-        backgroundColor: colors.white,
+    productRoot: {
+        backgroundColor: colors.lightGrey,
         // flex: 1,
-        height: 90,
-        width: width - 40,
+        height: 150,
+        width: 180,
         borderRadius: 10,
         position: 'relative',
-        padding: 8
+        padding: 8,
+        justifyContent: 'space-between'
     },
-    text: {
+    name: {
         color: colors.white,
     },
     shadow: {
@@ -32,7 +32,7 @@ export default StyleSheet.create({
         backgroundColor: 'black',
         position: 'absolute',
         top: -50,
-        right: 10,
+        right: 38,
         width: 100,
         height: 100,
         borderRadius: 50,
@@ -49,13 +49,16 @@ export default StyleSheet.create({
         backgroundColor: 'black',
         width: '100%',
         height: '100%',
-        borderRadius: 100,
+        borderRadius: 20,
         overflow: 'hidden',
     },
     title: {
-        width: width - 160,
+        paddingTop: 60,
+        maxWidth: 200,
+        textAlign: 'center',
         color: colors.black,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        // maxHeight: 60 + 50
     },
     startsWrapper: {
         flexDirection: 'row',
@@ -63,5 +66,9 @@ export default StyleSheet.create({
     },
     startIcon: {
         width: 15, height: 15
+    },
+    price: {
+        // paddingTop: 25,
+        fontStyle: 'italic'
     }
 });
