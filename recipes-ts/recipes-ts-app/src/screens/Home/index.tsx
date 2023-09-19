@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {FlatList, Text, View} from "react-native";
 import styles from './styles';
 import {ParamListBase, useNavigation} from "@react-navigation/native";
@@ -8,23 +8,26 @@ import Input from "../../components/Input";
 import Categories from "../../components/Categories";
 import RecipeCard from "../../components/RecipeCard";
 import ProductCard from "../../components/ProductCard";
+import {AppContext} from "../../../App";
 
 
 const Home = () => {
     const categories = require('../../data/tags.json');
     const recipies = require('../../data/recipies.json');
-    const products = require('../../data/products.json');
+    const productsDum = require('../../data/products.json');
     const italyCF = require('../../../assets/products/CF-ITALY.gif');
     const [selectedCategory, setSelectedCategory] = useState(categories[0]);
     const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
     const onSearch = () => {
         navigation.navigate('Search');
     }
-    const [productsShow, setProductShow] = useState<any[]>(products);
+    // @ts-ignore
+    const {products} = useContext(AppContext);
+    const [productsShow, setProductShow] = useState<any[]>(productsDum);
     useEffect(() => {
-        const productFilter = products.filter((item: any) => item.tag.includes(selectedCategory));
+        const productFilter = productsDum.filter((item: any) => item.tag.includes(selectedCategory));
         if (productFilter?.length === 0) {
-            setProductShow(products);
+            setProductShow(productsDum);
         } else {
             setProductShow(productFilter);
         }

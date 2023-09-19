@@ -10,7 +10,7 @@ export default StyleSheet.create({
     },
     item: {
         fontSize: 12,
-        color: 'rgba(0,0,0,0.5)',
+        color: colors.green,
         paddingVertical: 12,
         borderRadius: 10,
     },

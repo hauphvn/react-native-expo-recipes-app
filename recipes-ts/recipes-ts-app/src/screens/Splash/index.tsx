@@ -12,7 +12,6 @@ const Splash = () => {
     const LogoImg = require("../../../assets/logo.png");
     const ImageSplash = require("../../../assets/splash.png");
     const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
-
     return (
         <ImageBackground source={ImageSplash} style={styles.splashRoot}>
             <View style={styles.logoContainer}>
